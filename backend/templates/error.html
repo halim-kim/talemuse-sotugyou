@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Talemuse</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}">
+</head>
+<body>
+    <h1>エラーが発生しました</h1>
+    <p>申し訳ありませんが、処理中にエラーが発生しました。</p>
+    <p>エラー詳細: {{ error }}</p>
+    <a href="/">トップページに戻る</a>
+</body>
+</html>
