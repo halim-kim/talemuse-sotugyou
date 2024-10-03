@@ -1,18 +1,28 @@
-# talemuse
+# ①課題番号-プロダクト名
 
-## How to run the FastAPI backend server
+Talemuse（AI自叙伝）卒業制作
 
-```
-$ fastapi dev main.py
-```
+## ②課題内容（どんな作品か）
 
-## How to run the Next.js frontend server
+- Talemuseは物語を噛み締めるという意味の造語です。
+AIを使い、低コストで誰もが簡単に自分の人生の軌跡を残せるサービスとして人々の記録を残していきたいです。
+自分だけでなく、家族や周りの人の自叙伝が見れるようになると新しいコミュニケーションも生まれると思います。
+より身近だからこそ知り得なかったことを知り、新しい絆を作っていきたいです。
 
-```
-$ cd autobiography-frontend
-$ npm run dev
-```
+## ③DEMO
 
-## How to access the app
+https://talemuse-74d75452a85e.herokuapp.com/
 
-Access to http://localhost:3000/ from your browser.
+## ④作ったアプリケーション用のIDまたはPasswordがある場合
+
+- ID: なし
+- PW: なし
+
+## ⑤工夫した点・こだわった点
+
+- 本のUIをなるべく具現できるようにしたこと。
+
+## ⑥難しかった点・次回トライしたいこと(又は機能)
+
+- サクラサーバーではPythonのバージョンが対応しておらずデプロイできなかったこと。
+-　ローカル環境では動いたがデプロイ時に動かなかったり、herokuの使用上（定かではない）30秒でタイムアウトが来てしまい、その間にAIが返信を返せないため対応しなければいけなかったこと。
