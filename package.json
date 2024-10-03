@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "http-proxy-middleware": "^3.0.2",
+    "react-pageflip": "^2.0.3"
+  },
+  "scripts": {
+    "start": "concurrently \"cd backend && uvicorn main:app --host=0.0.0.0 --port=8000 --timeout-keep-alive=120 --timeout-graceful-shutdown=120\" \"cd frontend && npm run start\"",
+    "heroku-postbuild": "cd frontend && npm install --production=false && NEXT_TELEMETRY_DISABLED=1 npm run build && npm run build"
+  }
+}
